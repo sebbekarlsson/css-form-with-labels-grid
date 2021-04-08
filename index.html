@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        
+        <!-- Input-fields dar label ligger ovanpa -->
+        
+        <label for="firstname">Firstname</label>
+        <input type="text" id="firstname"/>
+        
+        <label for="lastname">Lastname</label>
+        <input type="text" id="lastname"/>
+        
+
+        <!-- Input-fields dar label ligger till vanster -->
+
+        <!-- Det lattaste sattet -->
+        <label for="agree">
+            Agree
+            <input type="checkbox" id="agree"/>
+        </label>
+
+        <!-- Det lite mer svarare sattet -->
+        <label style="display: inline;" for="remember">
+            Remember me
+        </label>
+        <input style="display: inline;" type="checkbox" id="remember"/>
+
+        <!-- Det mest komplexa sattet -->
+        <div class="split">
+            <div class="split-section">
+                <label for="ok">OK</label>
+            </div>
+            <div class="split-section">
+                <input id="ok" type="checkbox">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

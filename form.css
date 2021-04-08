@@ -1,0 +1,22 @@
+.grid {
+    display: grid;
+    grid-template-rows: repeat(3, 64px);
+}
+
+.grid .row {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 4rem;
+}
+
+form label {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.grid .col {
+    display: grid;
+    align-items: center;
+    position: relative;
+}
